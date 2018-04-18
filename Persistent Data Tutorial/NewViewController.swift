@@ -8,7 +8,13 @@
 
 import UIKit
 
+protocol NewViewControllerDelegate: class {
+    func saveChoice(choice: String)
+}
+
 class NewViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    weak var delegate: NewViewControllerDelegate?
     
     let myData = ["one", "two", "three", "four"]
     
