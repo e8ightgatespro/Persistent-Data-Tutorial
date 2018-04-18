@@ -13,6 +13,7 @@
 		4E467BAA20879A920004CCF0 /* Persistent_Data_Tutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E467BA820879A920004CCF0 /* Persistent_Data_Tutorial.xcdatamodeld */; };
 		4E467BAC20879A920004CCF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E467BAB20879A920004CCF0 /* Assets.xcassets */; };
 		4E467BAF20879A920004CCF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E467BAD20879A920004CCF0 /* LaunchScreen.storyboard */; };
+		4E467BB72087A2720004CCF0 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E467BB62087A2720004CCF0 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4E467BAB20879A920004CCF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E467BAE20879A920004CCF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E467BB020879A920004CCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E467BB62087A2720004CCF0 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4E467BAD20879A920004CCF0 /* LaunchScreen.storyboard */,
 				4E467BB020879A920004CCF0 /* Info.plist */,
 				4E467BA820879A920004CCF0 /* Persistent_Data_Tutorial.xcdatamodeld */,
+				4E467BB62087A2720004CCF0 /* NewViewController.swift */,
 			);
 			path = "Persistent Data Tutorial";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				4E467BA420879A920004CCF0 /* ViewController.swift in Sources */,
 				4E467BA220879A920004CCF0 /* AppDelegate.swift in Sources */,
 				4E467BAA20879A920004CCF0 /* Persistent_Data_Tutorial.xcdatamodeld in Sources */,
+				4E467BB72087A2720004CCF0 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
